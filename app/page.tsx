@@ -1,8 +1,13 @@
-export default function page() {
+import AboutPage from "./about/page";
+import NavPage from "./nav/page";
+
+function page() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </>
+    <main className="">
+      <NavPage />
+      <AboutPage />
+    </main>
   );
 }
+
+export default page;

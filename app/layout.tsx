@@ -1,4 +1,12 @@
-export default function RootLayout({ children }: LayoutProps<"/">) {
+import type { ReactNode } from "react";
+
+import "./global.css";
+
+export const metadata = {
+  title: "my-portfolio",
+};
+
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body className="min-h-full flex flex-col">{children}</body>
