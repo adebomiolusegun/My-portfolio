@@ -5,40 +5,29 @@ function NavPage() {
   return (
     <>
       <div className="flex ml-auto justify-end items-center p-4">
-        <p className="text-primary mr-auto">OA_</p>
         <RxHamburgerMenu className="flex text-black text-2xl md:hidden" />
-        <nav className="  items-center  p-4 pr-8   md:flex hidden">
-          <ul className="flex space-x-4 ">
+        <nav className=" border-2 border-amber-400 items-center text-black p-4 pr-8 md:flex hidden">
+          <ul className="flex space-x-4">
             <li>
-              <Link href="#home" className="hover-effect">
-                Home
-              </Link>
+              <Link href="#home">Home</Link>
             </li>
             <li>
-              <Link href="#about" className="hover-effect">
-                About
-              </Link>
+              <Link href="#about">About</Link>
             </li>
             <li>
-              <Link href="#work" className="hover-effect">
-                Work
-              </Link>
+              <Link href="#work">Work</Link>
             </li>
             <li>
-              <Link href="#experience" className="hover-effect">
-                Experience
-              </Link>
+              <Link href="#experience">Experience</Link>
             </li>
             <li>
-              <Link href="#contact" className="hover-effect">
-                Contact
-              </Link>
+              <Link href="#contact">Contact</Link>
             </li>
           </ul>
         </nav>
 
         <div className="flex items-center justify-center ml-4 ">
-          <p className="text-primary  hidden md:flex ">Availiable</p>
+          <p className="text-blue-500 hidden md:flex ">Availiable</p>
         </div>
       </div>
     </>
