@@ -12,28 +12,19 @@ function NavPage() {
         <nav className="ml-auto hidden md:flex">
           <ul className="flex items-center gap-6">
             <li>
-              <Link
-                href="#home"
-                className="transition-colors hover:text-primary"
-              >
+              <Link href="#home" className="transition-colors hover-effect">
                 Home
               </Link>
             </li>
 
             <li>
-              <Link
-                href="#about"
-                className="transition-colors hover:text-primary"
-              >
+              <Link href="#about" className="transition-colors  hover-effect">
                 About
               </Link>
             </li>
 
             <li>
-              <Link
-                href="#work"
-                className="transition-colors hover:text-primary"
-              >
+              <Link href="#work" className="transition-colors hover-effect">
                 Work
               </Link>
             </li>
@@ -41,17 +32,14 @@ function NavPage() {
             <li>
               <Link
                 href="#experience"
-                className="transition-colors hover:text-primary"
+                className="transition-colors hover-effect"
               >
                 Experience
               </Link>
             </li>
 
             <li>
-              <Link
-                href="#contact"
-                className="transition-colors hover:text-primary"
-              >
+              <Link href="#contact" className="transition-colors hover-effect">
                 Contact
               </Link>
             </li>
