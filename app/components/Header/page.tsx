@@ -17,7 +17,7 @@ function Header() {
                 $ whoami
               </p>
 
-              <div className="section-heading max-w-2xl">
+              <div className="section-heading max-w-2xl pb-6">
                 <h1>Hi, I&apos;m Adebomi.</h1>
 
                 <h1>I write code and</h1>
@@ -26,7 +26,7 @@ function Header() {
                 <h1 className="text-primary">the web.</h1>
               </div>
 
-              <p className="body mt-6 max-w-xs text-muted-foreground">
+              <p className="text-base leading-7 text-foreground/70 sm:text-lg sm:leading-8">
                 Frontend Engineer who loves clean code, beautiful design and
                 solving real problems.
               </p>
