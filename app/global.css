@@ -12,6 +12,8 @@
   --color-foreground: #f1f5f3;
   --color-muted: #a0aaa6;
   --color-subtle: #68736f;
+  --color-terminal-key: #4b8f7a;
+  --color-terminal-value: #60716f;
 
   --font-primary: "JetBrains Mono", monospace;
   --font-secondary: "Roboto", sans-serif;
@@ -19,7 +21,7 @@
 
 .hero {
   font-family: "JetBrains Mono", monospace;
-  font-size: 56px;
+  font-size: 30px;
   font-weight: 600;
   line-height: 1.05;
 }
@@ -32,23 +34,21 @@
 }
 
 .body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   font-size: 15px;
-  font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.7;
 }
 
 .terminal-label {
   font-family: "JetBrains Mono", monospace;
   font-size: 13px;
-  font-weight: 400;
-  line-height: 1.5;
+  font-weight: 500;
 }
 
 .starts {
   font-family: "JetBrains Mono", monospace;
   font-size: 32px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.5;
 }
 

@@ -1,37 +1,54 @@
+import Skills from "@/app/UI/skills/page";
 import NavPage from "../Nav/page";
+import Stats from "@/app/UI/Stats/page";
+import TerminalBar from "@/app/UI/TerminalBar/page";
+import Button from "@/app/UI/Button/page";
 
 function Header() {
   return (
     <main className="min-h-screen bg-background text-foreground font-primary">
       <NavPage />
-      <div className="flex flex-row gap-6 justify-center items-center p-4">
-        <section className="border-b border-border justify-around items-center flex flex-col md:flex-row gap-6 p-4">
-          <div className="bg-card">
-            <p className="text-primary">$ whoami</p>
 
-            <h1 className="text-5xl font-semibold">
-              Hi, Im Adebomi. i write code and build things for{" "}
-              <span className="text-primary">the web</span>
-            </h1>
+      <section className="border-b border-border">
+        <div className="mx-auto w-full max-w-7xl px-5 py-12 sm:px-8 md:py-16 lg:px-10 lg:py-20">
+          {/* HERO */}
+          <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-16">
+            {/* LEFT — INTRO */}
+            <div className="flex flex-col items-start">
+              {/* Terminal command */}
+              <p className="mb-5 text-sm font-medium text-primary sm:text-base">
+                $ whoami
+              </p>
 
-            <p className="text-muted font-secondary">
-              Frontend Engineer who loves clean code, beautiful design and
-              solving real problems.
-            </p>
+              {/* Heading */}
+              <div className="section-heading max-w-2xl">
+                <h1>Hi, I&apos;m Adebomi.</h1>
 
-            <button className="bg-primary text-background hover:bg-primary-hover cursor-pointer">
-              View Projects
-            </button>
-          </div>
+                <h1>I write code and</h1>
 
-          <div className="bg-card">
-            <div className="text-primary w-50 h-50 border-4 border-primary rounded-lg flex justify-center items-center">
-              <p className="text-2xl font-semibold">Adebomi Olusegun</p>
-              <p className="text-muted font-secondary">Frontend Engineer</p>
+                <h1>build things for </h1>
+                <h1 className="text-primary">the web.</h1>
+              </div>
+
+              {/* Description */}
+              <p className="body mt-6 max-w-xs text-muted-foreground">
+                Frontend Engineer who loves clean code, beautiful design and
+                solving real problems.
+              </p>
+
+              <Skills />
+
+              <Button />
             </div>
+
+            <TerminalBar />
           </div>
-        </section>
-      </div>
+
+          {/* STATS */}
+
+          <Stats />
+        </div>
+      </section>
     </main>
   );
 }

@@ -5,8 +5,15 @@ function NavPage() {
   return (
     <>
       <div className="flex ml-auto justify-end items-center p-4">
-        <RxHamburgerMenu className="flex text-black text-2xl md:hidden" />
-        <nav className=" border-2 border-amber-400 items-center text-black p-4 pr-8 md:flex hidden">
+        <p className="text-primary mr-auto">AD_</p>
+        <div className="flex items-center justify-center ml-4 md:hidden gap-8">
+          <div className="flex gap-2 items-center justify-center ml-4 ">
+            <span className="flex h-2.5 w-2.5 rounded-full bg-primary md:hidden " />
+            <p className="text-primary md:hidden flex ">Availiable</p>
+          </div>
+          <RxHamburgerMenu className="flex  text-2xl md:hidden" />
+        </div>
+        <nav className=" items-center  p-4 pr-8 md:flex hidden">
           <ul className="flex space-x-4">
             <li>
               <Link href="#home">Home</Link>
@@ -26,8 +33,9 @@ function NavPage() {
           </ul>
         </nav>
 
-        <div className="flex items-center justify-center ml-4 ">
-          <p className="text-blue-500 hidden md:flex ">Availiable</p>
+        <div className="flex gap-2 items-center justify-center ml-4 ">
+          <span className="h-2.5 w-2.5 rounded-full bg-primary md:flex hidden" />
+          <p className="text-primary hidden md:flex ">Availiable</p>
         </div>
       </div>
     </>
