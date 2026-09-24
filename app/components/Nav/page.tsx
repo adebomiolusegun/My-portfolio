@@ -3,42 +3,84 @@ import { RxHamburgerMenu } from "react-icons/rx";
 
 function NavPage() {
   return (
-    <>
-      <div className="flex ml-auto justify-end items-center p-4">
-        <p className="text-primary mr-auto">AD_</p>
-        <div className="flex items-center justify-center ml-4 md:hidden gap-8">
-          <div className="flex gap-2 items-center justify-center ml-4 ">
-            <span className="flex h-2.5 w-2.5 rounded-full bg-primary md:hidden " />
-            <p className="text-primary md:hidden flex ">Availiable</p>
-          </div>
-          <RxHamburgerMenu className="flex  text-2xl md:hidden" />
-        </div>
-        <nav className=" items-center  p-4 pr-8 md:flex hidden">
-          <ul className="flex space-x-4">
+    <header className="w-full border-b border-border">
+      <div className="mx-auto flex h-16 w-full max-w-7xl items-center px-4 sm:px-6 md:px-8 lg:px-10">
+        <Link href="#home" className="text-primary font-semibold">
+          AD_
+        </Link>
+
+        <nav className="ml-auto hidden md:flex">
+          <ul className="flex items-center gap-6">
             <li>
-              <Link href="#home">Home</Link>
+              <Link
+                href="#home"
+                className="transition-colors hover:text-primary"
+              >
+                Home
+              </Link>
             </li>
+
             <li>
-              <Link href="#about">About</Link>
+              <Link
+                href="#about"
+                className="transition-colors hover:text-primary"
+              >
+                About
+              </Link>
             </li>
+
             <li>
-              <Link href="#work">Work</Link>
+              <Link
+                href="#work"
+                className="transition-colors hover:text-primary"
+              >
+                Work
+              </Link>
             </li>
+
             <li>
-              <Link href="#experience">Experience</Link>
+              <Link
+                href="#experience"
+                className="transition-colors hover:text-primary"
+              >
+                Experience
+              </Link>
             </li>
+
             <li>
-              <Link href="#contact">Contact</Link>
+              <Link
+                href="#contact"
+                className="transition-colors hover:text-primary"
+              >
+                Contact
+              </Link>
             </li>
           </ul>
         </nav>
 
-        <div className="flex gap-2 items-center justify-center ml-4 ">
-          <span className="h-2.5 w-2.5 rounded-full bg-primary md:flex hidden" />
-          <p className="text-primary hidden md:flex ">Availiable</p>
+        {/* Availability */}
+        <div className="ml-6 hidden items-center gap-2 md:flex">
+          <span className="h-2.5 w-2.5 rounded-full bg-primary" />
+          <p className="text-primary text-sm">Available</p>
+        </div>
+
+        {/* Mobile Menu */}
+        <div className="ml-auto flex items-center gap-6 md:hidden">
+          <div className="flex items-center gap-2">
+            <span className="h-2.5 w-2.5 rounded-full bg-primary" />
+            <p className="text-primary text-sm">Available</p>
+          </div>
+
+          <button
+            type="button"
+            aria-label="Open navigation menu"
+            className="text-2xl"
+          >
+            <RxHamburgerMenu />
+          </button>
         </div>
       </div>
-    </>
+    </header>
   );
 }
 
