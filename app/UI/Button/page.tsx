@@ -4,7 +4,7 @@ function Button() {
       <button
         className="
                 body
-                w-full
+                w-auto
                 rounded-md
                 bg-primary
                 px-5
@@ -14,7 +14,9 @@ function Button() {
                 duration-200
                 hover:bg-primary-hover
                 hover:-translate-y-0.5
-                sm:w-auto
+                sm:px-5
+                sm:py-3
+                sm:text-base
               "
       >
         View Projects
@@ -23,7 +25,7 @@ function Button() {
       <button
         className="
                 body
-                w-full
+                w-auto
                 rounded-md
                 border
                 border-primary
@@ -33,7 +35,9 @@ function Button() {
                 transition-all
                 duration-200
                 hover:bg-primary/10
-                sm:w-auto
+                sm:px-5
+                sm:py-3
+                sm:text-base
               "
       >
         Get in Touch
