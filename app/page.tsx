@@ -5,7 +5,7 @@ import Header from "./components/Header/page";
 
 function page({}) {
   return (
-    <main className="flex flex-col gap-6">
+    <main className="flex flex-col">
       <Header />
       <AboutPage />
     </main>
