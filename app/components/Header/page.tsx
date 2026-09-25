@@ -3,6 +3,8 @@ import NavPage from "../Nav/page";
 import Stats from "@/app/UI/Stats/page";
 import TerminalBar from "@/app/UI/TerminalBar/page";
 import Button from "@/app/UI/Button/page";
+import SubHeader from "@/app/UI/SubHeading/page";
+import HeroHeading from "@/app/UI/Heading/page";
 
 function Header() {
   return (
@@ -17,19 +19,17 @@ function Header() {
                 $ whoami
               </p>
 
-              <div className="section-heading max-w-2xl pb-6">
-                <h1>Hi, I&apos;m Adebomi.</h1>
+              <HeroHeading
+                greeting="Hi, I'm Adebomi."
+                line2="I write code and"
+                line3="build things for"
+                highlight="the web."
+              />
 
-                <h1>I write code and</h1>
-
-                <h1>build things for </h1>
-                <h1 className="text-primary">the web.</h1>
-              </div>
-
-              <p className="text-base leading-7 text-foreground/70 sm:text-lg sm:leading-8">
-                Frontend Engineer who loves clean code, beautiful design and
-                solving real problems.
-              </p>
+              <SubHeader
+                title="  Frontend Engineer who loves clean code, beautiful design and
+                solving real problems."
+              />
 
               <Skills />
 
