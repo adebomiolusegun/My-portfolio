@@ -189,7 +189,6 @@ function ExperienceItem({
 
       {/* Experience content */}
       <div className="font-mono">
-        {/* Period */}
         <p
           className="
             text-xs
@@ -201,7 +200,6 @@ function ExperienceItem({
           {experience.period}
         </p>
 
-        {/* Role + Company */}
         <p
           className="
             mt-0.5
