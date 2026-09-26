@@ -3,6 +3,7 @@
 import AboutPage from "./components/About/page";
 import Header from "./components/Header/page";
 import Skill from "./components/Skills/page";
+import Work from "./components/Work/page";
 
 function page({}) {
   return (
@@ -10,6 +11,7 @@ function page({}) {
       <Header />
       <AboutPage />
       <Skill />
+      <Work />
     </main>
   );
 }
