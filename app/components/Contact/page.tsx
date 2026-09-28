@@ -209,7 +209,7 @@ function Contact() {
 
                 {/* Send Message */}
                 <a
-                  href="mailto:adebomiolusegun@gmail.com"
+                  href="mailto:olusegunadebomi1@gmail.com"
                   className="
                     mt-2
                     inline-flex
