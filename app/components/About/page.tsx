@@ -127,7 +127,7 @@ function AboutPage() {
                   {title}
                 </h2>
 
-                <p className="mt-1 text-xs text-muted-foreground sm:text-sm">
+                <p className="mt-1 text-xs text-muted sm:text-sm">
                   {description}
                 </p>
               </div>

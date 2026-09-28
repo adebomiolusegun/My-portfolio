@@ -5,7 +5,7 @@ function SubHeader({ title2, title, className }: HeaderProps) {
   return (
     <div
       className={cn(
-        " max-w-xl text-base leading-7 text-foreground/70 sm:text-lg sm:leading-8",
+        " max-w-xl text-base leading-7 text-muted sm:text-lg sm:leading-8",
         className,
       )}
     >

@@ -1,6 +1,7 @@
 // import NavPage from "./nav/page";
 
 import AboutPage from "./components/About/page";
+import Contact from "./components/Contact/page";
 import Experience from "./components/Experience/page";
 import Header from "./components/Header/page";
 import Skill from "./components/Skills/page";
@@ -14,6 +15,7 @@ function page({}) {
       <Skill />
       <Work />
       <Experience />
+      <Contact />
     </main>
   );
 }
