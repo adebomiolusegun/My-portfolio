@@ -209,7 +209,7 @@ function Contact() {
 
                 {/* Send Message */}
                 <a
-                  href="mailto:adebomiolusegun@gmail.com"
+                  href="mailto:olusegunadebomi1.com"
                   className="
                     mt-2
                     inline-flex
@@ -268,7 +268,7 @@ function Contact() {
 
                 {/* LinkedIn */}
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/olusegun-adebomi-7aabb3224/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn"
@@ -285,7 +285,7 @@ function Contact() {
 
                 {/* X */}
                 <a
-                  href="#"
+                  href="https://x.com/Oluwa_legacy"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="X"
@@ -301,7 +301,7 @@ function Contact() {
                 </a>
 
                 {/* Hashnode */}
-                <a
+                {/* <a
                   href="#"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -315,11 +315,11 @@ function Contact() {
                   "
                 >
                   <SiHashnode className="size-5" />
-                </a>
+                </a> */}
               </div>
 
               {/* CV */}
-              <a
+              {/* <a
                 href="/cv.pdf"
                 download
                 className="
@@ -339,7 +339,7 @@ function Contact() {
                 <span>Download CV</span>
 
                 <span className="text-primary">↓</span>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
