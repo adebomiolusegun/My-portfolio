@@ -80,7 +80,10 @@ function Skill() {
   ];
 
   return (
-    <main className="border-b border-border bg-background text-foreground">
+    <main
+      id="skills"
+      className="border-b border-border bg-background text-foreground"
+    >
       <div
         className="
           mx-auto grid w-full max-w-7xl

@@ -19,6 +19,14 @@
   --font-secondary: "Roboto", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-secondary), sans-serif;
+}
+
 .hero {
   font-family: "JetBrains Mono", monospace;
   font-size: 30px;

@@ -60,7 +60,7 @@ function Work() {
         "
       >
         <div className="mb-8 flex flex-col gap-3 sm:mb-10">
-          <p className="font-mono text-sm text-primary">/work</p>
+          <p className="font-mono text-sm text-primary">$ ./work</p>
 
           <h2 className="hero font-bold">Featured Projects</h2>
 
