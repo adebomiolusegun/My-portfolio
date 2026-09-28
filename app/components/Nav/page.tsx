@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { LuX } from "react-icons/lu";
+import Avaliability from "@/app/UI/Avaliability/page";
 
 function NavPage() {
   const [open, setOpen] = useState(false);
@@ -100,19 +101,7 @@ function NavPage() {
         </div>
 
         {/* Availability */}
-        <div className="hidden items-center gap-2 md:flex">
-          <span
-            className="
-              size-2
-              rounded-full
-              bg-primary
-              shadow-[0_0_8px_rgba(0,232,137,0.8)]
-            "
-          />
-
-          <span className="font-mono text-[11px] text-muted">Available</span>
-        </div>
-
+        <Avaliability />
         {/* Mobile button */}
         <button
           type="button"
