@@ -160,7 +160,7 @@ function Contact() {
                         sm:text-xs
                       "
                     >
-                      adebomiolusegun@gmail.com
+                      olusegunadebomi1@gmail.com
                     </p>
                   </div>
                 </a>
@@ -202,7 +202,7 @@ function Contact() {
                         sm:text-xs
                       "
                     >
-                      Lagos, Nigeria
+                      Awka, Nigeria
                     </p>
                   </div>
                 </div>
