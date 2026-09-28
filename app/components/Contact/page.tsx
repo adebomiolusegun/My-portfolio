@@ -78,7 +78,7 @@ function Contact() {
                   sm:text-3xl
                 "
               >
-                Let's build something
+                Let&apos;s build something
                 <br />
                 great together.
               </h2>
@@ -97,7 +97,7 @@ function Contact() {
                 "
               >
                 Have a project in mind, a collaboration or just want to say
-                hello? I'm always open to new opportunities.
+                hello? I&apos;m always open to new opportunities.
               </p>
             </div>
 

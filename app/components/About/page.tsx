@@ -24,7 +24,10 @@ function AboutPage() {
   ];
 
   return (
-    <main className="border-b border-border bg-background text-foreground">
+    <main
+      id="about"
+      className="border-b border-border bg-background text-foreground"
+    >
       <div
         className="
           mx-auto
